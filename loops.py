@@ -36,3 +36,11 @@ while True:
         print("Number must be greater than 0")
     else:
         break
+
+
+print("\n-----nested-loop-----")
+#a loop within a loop
+for x in range(3):
+    for i in range(1,10):
+        print(i, end="-")
+    print()
